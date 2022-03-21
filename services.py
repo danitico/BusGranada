@@ -34,7 +34,7 @@ class StopService:
         return cls.format_message(data)
 
     @classmethod
-    def format_minutes_left(time_left) -> str:
+    def format_minutes_left(cls, time_left) -> str:
         try:
             time_left_integer = int(time_left)
         except:
