@@ -13,3 +13,4 @@ Código disponible en https://github.com/danitico/BusGranada
 '''
 REQUEST_STOP_NUMBER = 'Envíame el número de la parada'
 BUS_ENDPOINT = 'https://transportesrober.com:9012/Flotaenmovimiento/Transportes/parada.aspx'
+NO_BUSES = 'No hay información de esta parada en este momento'
